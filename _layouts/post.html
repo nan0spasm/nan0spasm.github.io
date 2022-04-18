@@ -1,0 +1,37 @@
+{% include header.html %}
+
+<!-- Begin page content -->
+<div class="container">
+
+<div class="page-header">
+<h1>{{ page.title }}</h1>
+</div>
+
+<div class="row">
+
+<div class="col-xs-12 col-md-8 col-lg-9">
+
+<ol class="breadcrumb">
+  <li><a href="/"><i class="fa fa-home"></i></a></li>
+  <li><a href="/blog/">Blogging</a></li>
+  <li class="active">{{ page.date | date: "%b %-d, %Y" }}</li>
+</ol>
+
+{{ content }}
+
+<div class="visible-xs visible-sm">
+<p><br />
+</p>
+</div>
+
+</div>
+
+<div class="col-xs-12 col-md-4 col-lg-3">
+{% include sidebar.html %}
+</div>
+
+</div>
+
+</div>
+
+{% include footer.html %}
