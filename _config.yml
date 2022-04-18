@@ -1,7 +1,7 @@
-name: 'Dana C. Ernst'
-description: 'Mathematics, Teaching, & Technology'
-tagline: 'Mathematics, Teaching, & Technology'
-url: 'http://dcernst.github.io'
+name: 'Dunham McBride'
+description: 'Research and Engineering'
+tagline: 'Research and Engineering'
+url: 'http://nan0spasm.github.io'
 baseurl: ''
 paginate: 10
 
@@ -15,13 +15,9 @@ permalink: pretty
 relative_permalinks: false
 
 # About/contact
-author: Dana C. Ernst
+author: Dunham McBride
 twitter:
-  username: danaernst
-
-# GitHub
-github:
-  repo: github.com/dcernst/dcernst.github.io
+  username: nan0spasm
 
 # Feed Stuff
 gems:
