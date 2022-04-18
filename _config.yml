@@ -1,0 +1,30 @@
+name: 'Dana C. Ernst'
+description: 'Mathematics, Teaching, & Technology'
+tagline: 'Mathematics, Teaching, & Technology'
+url: 'http://dcernst.github.io'
+baseurl: ''
+paginate: 10
+
+markdown: kramdown
+highlighter: rouge
+
+# Permalinks
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink: pretty
+# permalink: /:year/:month/:title/
+relative_permalinks: false
+
+# About/contact
+author: Dana C. Ernst
+twitter:
+  username: danaernst
+
+# GitHub
+github:
+  repo: github.com/dcernst/dcernst.github.io
+
+# Feed Stuff
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
